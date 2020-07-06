@@ -311,7 +311,6 @@ public class ServerMain {
                 log.error().$("could not find site [resource=").$(publicZip).$(']').$();
             }
         }
-        copyConfResource(dir, false, buffer, "conf/date.formats", log);
         copyConfResource(dir, force, buffer, "conf/mime.types", log);
         copyConfResource(dir, false, buffer, "conf/server.conf", log);
     }
